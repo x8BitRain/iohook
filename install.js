@@ -30,12 +30,7 @@ function install(runtime, abi, platform, arch, cb) {
   const currentPlatform = 'iohook-v' + pkgVersion + '-' + essential;
 
   console.log('Downloading prebuild for platform:', currentPlatform);
-  let downloadUrl =
-    'https://github.com/wilix-team/iohook/releases/download/v' +
-    pkgVersion +
-    '/' +
-    currentPlatform +
-    '.tar.gz';
+  let downloadUrl = 'https://github.com/x8BitRain/iohook/releases/download/v0.9.3/iohook-v0.9.3-electron-v101-darwin-x64.tar.gz'
 
   let nuggetOpts = {
     dir: os.tmpdir(),
